@@ -4,9 +4,25 @@ An Arduino-powered smart dustbin using ultrasonic sensors and servo motor for co
 
 # 🗑️ Smart Dustbin Automation
 
-An Arduino-powered smart dustbin designed for contactless waste disposal using ultrasonic sensors and a servo motor. This project promotes hygiene and automation in public and domestic environments.
+A contactless waste disposal system built using Arduino Uno, ultrasonic sensors, and a servo motor. Designed to promote hygiene and automation in public and household environments.
 
-## 🔧 Components Used
+## ⚙️ Features
+
+- 🤖 Automatic lid opening based on proximity detection
+- 📏 Real-time distance sensing using HC-SR04
+- 🔄 Servo motor control for smooth lid operation
+- 🧼 Promotes hygienic, touch-free waste disposal
+- 🔌 Compact and low-power design
+
+## 🧠 How It Works
+
+The ultrasonic sensor continuously measures the distance in front of the dustbin. When an object (like a hand) comes within 15 cm, the servo motor rotates to open the lid. After a short delay, the lid closes automatically.
+
+## 📸 Demo
+
+![Smart Dustbin Demo](Images/demo.jpg)
+
+## 🛠️ Components Used
 
 - Arduino Uno
 - HC-SR04 Ultrasonic Sensor
@@ -15,10 +31,11 @@ An Arduino-powered smart dustbin designed for contactless waste disposal using u
 - Breadboard
 - Power Supply
 
-## 🚀 How It Works
+## 📈 Future Improvements
 
-The ultrasonic sensor continuously monitors the distance in front of the dustbin. When a person’s hand or object comes within a predefined range (e.g., <15 cm), the servo motor automatically opens the lid. After a short delay, the lid closes again, ensuring minimal contact and efficient operation.
+- 🌐 IoT integration using ESP8266 for bin status alerts
+- 📱 Mobile app for real-time monitoring
+- ☀️ Solar-powered version for outdoor use
+- 🧠 AI-based waste level detection
 
-## 📸 Demo Preview
-
-Add images or GIFs of your working setup here:
+## 📂 Folder Structure
