@@ -39,3 +39,19 @@ The ultrasonic sensor continuously measures the distance in front of the dustbin
 - 🧠 AI-based waste level detection
 
 ## 📂 Folder Structure
+
+
+
+Smart-Dustbin-Automation/ ├── Arduino_Code/ │   └── smart_dustbin.ino ├── Images/ │   └── demo.jpg ├── README.md └── Components.txt
+
+
+
+
+
+
+## 👨‍💻 Author
+
+**Devang Sharma**  
+Final-year BTech CSE | Full-stack & Embedded Developer  
+[LinkedIn](https://www.linkedin.com/in/devang-sharma) • [GitHub](https://github.com/Devang078) 
+
